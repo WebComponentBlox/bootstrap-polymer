@@ -1,0 +1,7 @@
+.idea
+
+bower_components/
+
+src/**/*.js
+src/**/*.map
+src/**/*.css
