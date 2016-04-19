@@ -1,0 +1,18 @@
+<link rel="import"
+      href="http://www.polymer-project.org/1.0/components/polymer/polymer.html">
+
+<link rel="import" href="../bp-button/bp-button.html">
+
+<dom-module id="bp-jumbotron">
+
+  <template>
+    <div class="jumbotron">
+      <h1>{{title}}</h1>
+      <p><content></content></p>
+      <p><bp-button kind="{{kind}}" size="lg">{{action}}</bp-button></p>
+    </div>
+  </template>
+
+  <script src="bp-jumbotron.js"></script>
+
+</dom-module>
