@@ -2,8 +2,13 @@ Polymer
   is: 'bp-label'
 
   properties:
-    kind: 'default'
-    block: 'false'
+    kind:
+      type: String
+      value: 'default'
+
+    block:
+      type: Boolean
+      value: false
 
   ready: ->
     classes = @.$$('.bp-label').classList
